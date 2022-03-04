@@ -1,0 +1,10 @@
+name: CI
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo 'The .yaml extension is also recognized as a GHA configuration'
